@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-class Tools < Formula
+class FabricTools < Formula
   desc "Hyperledger Fabric native binaries installer"
   homepage "https://hyperledger.org/projects/fabric"
   # TODO pick URL where the MacOSX binaries tarball will be hosted
