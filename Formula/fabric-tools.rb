@@ -13,7 +13,6 @@ class FabricTools < Formula
     bin.install "configtxgen"
     bin.install "configtxlator"
     bin.install "peer"
-    bin.install "orderer"
   end
 
   test do
@@ -21,6 +20,5 @@ class FabricTools < Formula
     system "#{bin}/configtxlator --help"
     system "#{bin}/cryptogen --help"
     system "#{bin}/peer --help"
-    system "#{bin}/orderer --help"
   end
 end
